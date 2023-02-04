@@ -1,8 +1,8 @@
 # neural-machine-translation-on-OpenStreetMap
 
-This work aims to fine tune a pretrained hugging-face translation model to translate the names of ways on OpenStreetMap (OSM), from Chinese (zh) to English (en). 
+This work aims to fine tune a pretrained hugging-face translation model to better translate the names of ways on OpenStreetMap (OSM), from Chinese (zh) to English (en). 
 - Hugging Face pretrained model: https://huggingface.co/Helsinki-NLP/opus-mt-zh-en
-- The OSM ways in the dataset are located in Taiwan, have one of the following tags:
+- The OSM ways in the dataset are located in Taiwan, and have one of the following tags:
     - ```
         tags['highway'] IN (
             'motorway',
