@@ -48,7 +48,7 @@ args = Seq2SeqTrainingArguments(
     per_device_eval_batch_size=batch_size,
     weight_decay=0.01,
     save_total_limit=3,
-    num_train_epochs=2,
+    num_train_epochs=5,
     predict_with_generate=True
 )
 
